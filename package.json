@@ -1,0 +1,26 @@
+{
+  "name": "homebridge-watchman",
+  "version": "0.0.1",
+  "description": "Watchman Sonic plug-in for Homebridge\"",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrTam/homebridge-watchman.git"
+  },
+  "keywords": [
+    "homebridge-plugin",
+    "watchman"
+  ],
+  "author": "Tom Gibson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MrTam/homebridge-watchman/issues"
+  },
+  "homepage": "https://github.com/MrTam/homebridge-watchman#readme",
+  "dependencies": {
+    "rtl-sdr": "git+https://github.com/tbouron/rtl-sdr.git"
+  },
+  "engines": {
+    "homebridge": ">=0.4.46"
+  }
+}
